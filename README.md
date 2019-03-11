@@ -4,6 +4,8 @@ A Synergy client for iOS (a.k.a. iSynergyClient).
 
 iSynergyClient provides an independent client of the Synergy protocol for the iOS. In this implementation, middle and right mouse buttons can be assigned using Activator.
 
+[iSynergyClient for iOS](https://user-images.githubusercontent.com/313427/54129684-b5142680-4406-11e9-8d39-e35e36463efc.png)
+
 * Install a Synergy server, e.g., QuickSynergy for Mac or Synergy+ for Windows.
 * Configure server to have one additional screen (client) called "iPhone".(or the hostname)
 * Start iSynergyClient.
