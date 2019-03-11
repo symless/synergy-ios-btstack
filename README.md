@@ -2,6 +2,8 @@
 
 A Synergy client for iOS (a.k.a. iSynergyClient) that provides an independent client of the Synergy protocol for the iOS. In this implementation, middle and right mouse buttons can be assigned using Activator.
 
+To install, search for "iSynergyClient" is in Cydia's default repos. [Cydia](https://en.wikipedia.org/wiki/Cydia) is an alternative to Apple's App Store for "jailbroken" devices.
+
 ![iSynergyClient for iOS](https://user-images.githubusercontent.com/313427/54129684-b5142680-4406-11e9-8d39-e35e36463efc.png)
 
 * Install a Synergy server on your computer as normal
