@@ -1,0 +1,10 @@
+Package: me.kritanta.synergyclient
+Name: SynergyClient
+Section: Networking
+Architecture: iphoneos-arm
+Version: 0.1.0
+Description: 
+Author: Kritanta
+Maintainer: Kritanta
+Tag: purpose::extension
+Installed-Size: 31112

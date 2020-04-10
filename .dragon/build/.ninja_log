@@ -1,0 +1,11 @@
+# ninja log v5
+1	1884	1586546393562730149	.dragon/build/SynergyClient.m.o	4a6e8bcf2363bbec
+1	2477	1586546394156057046	.dragon/build/main.m.o	3b9d838842347278
+2	2506	1586546394185377616	.dragon/build/SynergyNavigationViewController.m.o	f81a48dbf507f976
+2	2535	1586546394214910891	.dragon/build/BackgroundApplication.m.o	4a2ec32f40ab3be8
+1	2583	1586546394263286619	.dragon/build/ConfigurationViewController.m.o	c771f980b6b552e5
+0	2589	1586546394268972862	.dragon/build/AppDelegate.m.o	a9ec4aea343d80b0
+2589	2858	1586546394538207120	.dragon/sign/.dragon/_/Applications/SynergyClient.app/SynergyClient.unsym	3a0984916f424787
+2858	2901	1586546394582228769	.dragon/sign/.dragon/_/Applications/SynergyClient.app/SynergyClient.unsigned	8722179886067fa4
+2901	2918	1586546394599466399	.dragon/_/Applications/SynergyClient.app/SynergyClient	e147fa95351cdd3c
+2919	2929	0	.dragon/build/trash/stage	b081426e6e4eeca0

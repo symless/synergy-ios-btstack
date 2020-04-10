@@ -103,7 +103,12 @@ static void socketDataCallback (CFSocketRef s,
 		[synergyClient handleSocketCallback];
     }
 }
-
+enum {
+  NSBackspaceKey      = 8,
+  NSCarriageReturnKey = 13,
+  NSDeleteKey         = 0x7f,
+  NSBacktabKey        = 25
+};
 @implementation SynergyClient
 
 @synthesize delegate;
