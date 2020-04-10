@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		710EDE4016C037D20055E48C /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710EDE3F16C037D20055E48C /* AppSupport.framework */; };
+		5FDE65AC243FCD6900B5766E /* libhidsupport.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 718EAEDA16C773F20034B963 /* libhidsupport.dylib */; };
+		5FDE65AD243FCF1600B5766E /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710EDE3F16C037D20055E48C /* AppSupport.framework */; };
+		5FDE65C024401ED500B5766E /* Icon-App-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B024401ED400B5766E /* Icon-App-1024x1024.png */; };
+		5FDE65C124401ED500B5766E /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B124401ED400B5766E /* Icon-App-60x60@2x.png */; };
+		5FDE65C224401ED500B5766E /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B224401ED400B5766E /* Icon-App-29x29@2x.png */; };
+		5FDE65C324401ED500B5766E /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B324401ED400B5766E /* Icon-App-40x40@2x.png */; };
+		5FDE65C424401ED500B5766E /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B424401ED400B5766E /* Icon-App-40x40@3x.png */; };
+		5FDE65C524401ED500B5766E /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B524401ED400B5766E /* Icon-App-20x20@1x.png */; };
+		5FDE65C624401ED500B5766E /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B624401ED400B5766E /* Icon-App-76x76@1x.png */; };
+		5FDE65C724401ED500B5766E /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B724401ED400B5766E /* Icon-App-60x60@1x.png */; };
+		5FDE65C824401ED500B5766E /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B824401ED400B5766E /* Icon-App-29x29@3x.png */; };
+		5FDE65C924401ED500B5766E /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65B924401ED500B5766E /* Icon-App-40x40@1x.png */; };
+		5FDE65CA24401ED500B5766E /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BA24401ED500B5766E /* Icon-App-20x20@3x.png */; };
+		5FDE65CB24401ED500B5766E /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BB24401ED500B5766E /* Icon-App-29x29@1x.png */; };
+		5FDE65CC24401ED500B5766E /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BC24401ED500B5766E /* Icon-App-60x60@3x.png */; };
+		5FDE65CD24401ED500B5766E /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BD24401ED500B5766E /* Icon-App-83.5x83.5@2x.png */; };
+		5FDE65CE24401ED500B5766E /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BE24401ED500B5766E /* Icon-App-76x76@2x.png */; };
+		5FDE65CF24401ED500B5766E /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65BF24401ED500B5766E /* Icon-App-20x20@2x.png */; };
+		5FDE65D12440220A00B5766E /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65D02440220A00B5766E /* launch.png */; };
+		5FDE65D3244023B700B5766E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE65D2244023B700B5766E /* Images.xcassets */; };
 		71255EF516C0326600353319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71255EF416C0326600353319 /* Foundation.framework */; };
 		71255EF716C0326B00353319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71255EF616C0326B00353319 /* UIKit.framework */; };
 		71255EF916C0327000353319 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71255EF816C0327000353319 /* CoreGraphics.framework */; };
 		7173F169164F676900F2350A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173F143164F669300F2350A /* main.m */; };
-		7173F205164F6AF000F2350A /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7173F202164F6AF000F2350A /* Icon-57.png */; };
-		7173F206164F6AF000F2350A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7173F203164F6AF000F2350A /* Icon-72.png */; };
 		7173F208164F6B4500F2350A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173F134164F669300F2350A /* AppDelegate.m */; };
 		7173F209164F6B4800F2350A /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173F138164F669300F2350A /* ConfigurationViewController.m */; };
 		7173F20A164F6B4E00F2350A /* mouse_msgs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7173F145164F669300F2350A /* mouse_msgs.mm */; };
 		7173F20B164F6B5500F2350A /* BackgroundApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173F136164F669300F2350A /* BackgroundApplication.m */; };
 		7173F20C164F6D1400F2350A /* SynergyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173F147164F669300F2350A /* SynergyClient.m */; };
-		718EAEDB16C773F20034B963 /* libhidsupport.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 718EAEDA16C773F20034B963 /* libhidsupport.dylib */; };
 		71EA015D16C4C16C00FFF797 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71EA015C16C4C16C00FFF797 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FDE65B024401ED400B5766E /* Icon-App-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-1024x1024.png"; sourceTree = "<group>"; };
+		5FDE65B124401ED400B5766E /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		5FDE65B224401ED400B5766E /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		5FDE65B324401ED400B5766E /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		5FDE65B424401ED400B5766E /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		5FDE65B524401ED400B5766E /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		5FDE65B624401ED400B5766E /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		5FDE65B724401ED400B5766E /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		5FDE65B824401ED400B5766E /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		5FDE65B924401ED500B5766E /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		5FDE65BA24401ED500B5766E /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		5FDE65BB24401ED500B5766E /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		5FDE65BC24401ED500B5766E /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		5FDE65BD24401ED500B5766E /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		5FDE65BE24401ED500B5766E /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		5FDE65BF24401ED500B5766E /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		5FDE65D02440220A00B5766E /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		5FDE65D2244023B700B5766E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		710EDE3F16C037D20055E48C /* AppSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSupport.framework; path = System/Library/PrivateFrameworks/AppSupport.framework; sourceTree = SDKROOT; };
 		71255EF416C0326600353319 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71255EF616C0326B00353319 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -41,8 +75,6 @@
 		7173F146164F669300F2350A /* SynergyClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynergyClient.h; sourceTree = SOURCE_ROOT; };
 		7173F147164F669300F2350A /* SynergyClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynergyClient.m; sourceTree = SOURCE_ROOT; };
 		7173F14F164F671B00F2350A /* SynergyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynergyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7173F202164F6AF000F2350A /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		7173F203164F6AF000F2350A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7173F204164F6AF000F2350A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718EAEDA16C773F20034B963 /* libhidsupport.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhidsupport.dylib; sourceTree = "<group>"; };
 		718EEFE416826F260063D540 /* _CPPowerAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPPowerAssertion.h; sourceTree = "<group>"; };
@@ -87,11 +119,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710EDE4016C037D20055E48C /* AppSupport.framework in Frameworks */,
+				5FDE65AD243FCF1600B5766E /* AppSupport.framework in Frameworks */,
 				71255EF916C0327000353319 /* CoreGraphics.framework in Frameworks */,
 				71255EF716C0326B00353319 /* UIKit.framework in Frameworks */,
+				5FDE65AC243FCD6900B5766E /* libhidsupport.dylib in Frameworks */,
 				71255EF516C0326600353319 /* Foundation.framework in Frameworks */,
-				718EAEDB16C773F20034B963 /* libhidsupport.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +173,7 @@
 				7173F145164F669300F2350A /* mouse_msgs.mm */,
 				7173F146164F669300F2350A /* SynergyClient.h */,
 				7173F147164F669300F2350A /* SynergyClient.m */,
+				5FDE65D2244023B700B5766E /* Images.xcassets */,
 				7173F15A164F671B00F2350A /* Supporting Files */,
 			);
 			path = SynergyClient;
@@ -167,11 +200,26 @@
 		7173F201164F6AF000F2350A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5FDE65D02440220A00B5766E /* launch.png */,
+				5FDE65B524401ED400B5766E /* Icon-App-20x20@1x.png */,
+				5FDE65BF24401ED500B5766E /* Icon-App-20x20@2x.png */,
+				5FDE65BA24401ED500B5766E /* Icon-App-20x20@3x.png */,
+				5FDE65BB24401ED500B5766E /* Icon-App-29x29@1x.png */,
+				5FDE65B224401ED400B5766E /* Icon-App-29x29@2x.png */,
+				5FDE65B824401ED400B5766E /* Icon-App-29x29@3x.png */,
+				5FDE65B924401ED500B5766E /* Icon-App-40x40@1x.png */,
+				5FDE65B324401ED400B5766E /* Icon-App-40x40@2x.png */,
+				5FDE65B424401ED400B5766E /* Icon-App-40x40@3x.png */,
+				5FDE65B724401ED400B5766E /* Icon-App-60x60@1x.png */,
+				5FDE65B124401ED400B5766E /* Icon-App-60x60@2x.png */,
+				5FDE65BC24401ED500B5766E /* Icon-App-60x60@3x.png */,
+				5FDE65B624401ED400B5766E /* Icon-App-76x76@1x.png */,
+				5FDE65BE24401ED500B5766E /* Icon-App-76x76@2x.png */,
+				5FDE65BD24401ED500B5766E /* Icon-App-83.5x83.5@2x.png */,
+				5FDE65B024401ED400B5766E /* Icon-App-1024x1024.png */,
 				718EAEDA16C773F20034B963 /* libhidsupport.dylib */,
 				71F80C39165B6189000546F0 /* Settings.bundle */,
 				71EA015C16C4C16C00FFF797 /* Default-568h@2x.png */,
-				7173F202164F6AF000F2350A /* Icon-57.png */,
-				7173F203164F6AF000F2350A /* Icon-72.png */,
 				7173F204164F6AF000F2350A /* Info.plist */,
 			);
 			path = Resources;
@@ -250,8 +298,6 @@
 				7173F14B164F671B00F2350A /* Sources */,
 				7173F14C164F671B00F2350A /* Frameworks */,
 				7173F14D164F671B00F2350A /* Resources */,
-				718EAED716C700ED0034B963 /* ShellScript */,
-				71EA015E16C4C43700FFF797 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -269,12 +315,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					7173F14E164F671B00F2350A = {
+						DevelopmentTeam = 5K985WUQXA;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 7173F12F164F666400F2350A /* Build configuration list for PBXProject "SynergyClient" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7173F12A164F666400F2350A;
@@ -292,42 +345,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7173F205164F6AF000F2350A /* Icon-57.png in Resources */,
-				7173F206164F6AF000F2350A /* Icon-72.png in Resources */,
+				5FDE65C724401ED500B5766E /* Icon-App-60x60@1x.png in Resources */,
+				5FDE65C524401ED500B5766E /* Icon-App-20x20@1x.png in Resources */,
+				5FDE65C324401ED500B5766E /* Icon-App-40x40@2x.png in Resources */,
+				5FDE65C224401ED500B5766E /* Icon-App-29x29@2x.png in Resources */,
+				5FDE65CD24401ED500B5766E /* Icon-App-83.5x83.5@2x.png in Resources */,
+				5FDE65CB24401ED500B5766E /* Icon-App-29x29@1x.png in Resources */,
+				5FDE65C124401ED500B5766E /* Icon-App-60x60@2x.png in Resources */,
+				5FDE65C924401ED500B5766E /* Icon-App-40x40@1x.png in Resources */,
+				5FDE65CE24401ED500B5766E /* Icon-App-76x76@2x.png in Resources */,
+				5FDE65C824401ED500B5766E /* Icon-App-29x29@3x.png in Resources */,
+				5FDE65C424401ED500B5766E /* Icon-App-40x40@3x.png in Resources */,
 				71EA015D16C4C16C00FFF797 /* Default-568h@2x.png in Resources */,
+				5FDE65D12440220A00B5766E /* launch.png in Resources */,
+				5FDE65CF24401ED500B5766E /* Icon-App-20x20@2x.png in Resources */,
+				5FDE65C024401ED500B5766E /* Icon-App-1024x1024.png in Resources */,
+				5FDE65D3244023B700B5766E /* Images.xcassets in Resources */,
+				5FDE65CC24401ED500B5766E /* Icon-App-60x60@3x.png in Resources */,
+				5FDE65C624401ED500B5766E /* Icon-App-76x76@1x.png in Resources */,
+				5FDE65CA24401ED500B5766E /* Icon-App-20x20@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		718EAED716C700ED0034B963 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"ch.ringwald.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer: Jailbroken\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi\n";
-		};
-		71EA015E16C4C43700FFF797 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#setup some options\nset -x\n#export DEVICE_NAME=iphonelocal\nexport DEVICE_NAME=ipadlocal\nexport DEVICE_TUNNEL_PORT=22\n\nDEB_DIR=\"${BUILT_PRODUCTS_DIR}/_${PROJECT_NAME}_\"\nINFO_PLIST=\"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Info.plist\"\n\nPRODUCT_VER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${INFO_PLIST}\")\nPRODUCT_BUILD=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFO_PLIST}\")\nDEB_NAME=\"isynergyclient_${PRODUCT_VER}-${PRODUCT_BUILD}_rotation+keyboard.deb\"\n\n#Setup deb directory\nrm -rf \"${DEB_DIR}\"\nmkdir -p \"${DEB_DIR}\"\n\n#Copy layout (with control file) and position files\ncp -Rv \"./layout/\" \"${DEB_DIR}\"\ncp -Rv \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\" \"${DEB_DIR}/Applications/${WRAPPER_NAME}\"\n\n#Remove .DS_store files (so we don't get them littering up our nice .deb package)\nfind \"${DEB_DIR}\" -name '*.DS_Store' -type f -delete\n#Remove .gitignore files (necessary for git to allow empty /Applications directory)\nfind \"${DEB_DIR}\" -name '.gitignore' -type f -delete\n\n#Build package\n/opt/local/bin/dpkg-deb -b \"${DEB_DIR}/\" \"${BUILT_PRODUCTS_DIR}/${DEB_NAME}\"\n\n#copy deb package over to device home directory\nscp -P ${DEVICE_TUNNEL_PORT} \"${BUILT_PRODUCTS_DIR}/${DEB_NAME}\" root@${DEVICE_NAME}:\"${DEB_NAME}\"\n\n#install package on device\nssh -p ${DEVICE_TUNNEL_PORT} root@${DEVICE_NAME} dpkg -i '~'/${DEB_NAME}\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7173F14B164F671B00F2350A /* Sources */ = {
@@ -350,12 +390,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					armv6,
-					armv7,
+					arm64,
+					arm64e,
 				);
 				GCC_THUMB_SUPPORT = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -363,12 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					armv6,
-					armv7,
+					arm64,
+					arm64e,
 				);
 				GCC_THUMB_SUPPORT = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
@@ -376,13 +418,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 5K985WUQXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
@@ -403,19 +451,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(HIDSUPPORT_SRC)/hidsupport/**";
 				INFOPLIST_FILE = Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Resources\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Desktop\"",
-					"\"$(SRCROOT)/../lib/hid-support/libhidsupport/obj\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/SynergyClient\"",
+					"$(PROJECT_DIR)/Resources",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kritanta.synergyclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "arm64e arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,13 +474,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 5K985WUQXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
@@ -444,21 +500,23 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(HIDSUPPORT_SRC)/hidsupport/**";
 				INFOPLIST_FILE = Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Resources\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Desktop\"",
-					"\"$(SRCROOT)/../lib/hid-support/libhidsupport/obj\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/SynergyClient\"",
+					"$(PROJECT_DIR)/Resources",
 				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kritanta.synergyclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "arm64e arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -43,7 +43,6 @@
 #include <unistd.h>
 #include <dlfcn.h>
 
-#include "mouse_msgs.h"
 //#import "../libactivator/libactivator.h"
 #include "hid-support.h"
 
@@ -198,7 +197,6 @@ static void socketDataCallback (CFSocketRef s,
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:keyActivatorDefautsApplied];
 	}
      */
-		 
 	return self;
 }
 
@@ -467,18 +465,18 @@ static void socketDataCallback (CFSocketRef s,
 
 - (void) activateMouse {
 	if (!mouseShown) {
-		mouseOpen();
+		//mouseOpen();
 		NSLog(@"Connection to mouse opened");
-		mouseShown = YES;
+		//mouseShown = YES;
 	}
 	
 }
 
 - (void) deactivateMouse {
 	if (mouseShown) {
-		mouseClose();
+		//mouseClose();
 		NSLog(@"Connection to mouse closed");
-		mouseShown = NO;
+		//mouseShown = NO;
 	}
 }
 
@@ -614,9 +612,9 @@ static void socketDataCallback (CFSocketRef s,
 		int x, y;
 		[self parseMessage:kMsgDMouseMove, &x, &y];
 		mouseX = x; mouseY = y;
-        //hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
-        mouseSendEvent( mouseX, mouseY, mouseButton);
-        //NSLog(@"Mouse button %u at %f,%f\n", mouseButton, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+        //mouseSendEvent( mouseX, mouseY, mouseButton);
+        NSLog(@"Mouse button %u at %f,%f\n", mouseButton, mouseX, mouseY);
 	}
 	if (strncmp(kMsgDMouseDown, (char*)message, 4) == 0){
 
@@ -646,17 +644,17 @@ static void socketDataCallback (CFSocketRef s,
 		}
         
         
-        //hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
-		mouseSendEvent( mouseX, mouseY, mouseButton);
-		// NSLog(@"Mouse down %u at %f,%f\n", button, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+		//mouseSendEvent( mouseX, mouseY, mouseButton);
+		NSLog(@"Mouse down %u at %f,%f\n", button, mouseX, mouseY);
 	}
 	if (strncmp(kMsgDMouseUp, (char*)message, 4) == 0){
 		int i;
 		[self parseMessage:kMsgDMouseUp, &i];
 		mouseButton = 0;
-        //hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
-		mouseSendEvent( mouseX, mouseY, mouseButton);
-		// NSLog(@"Mouse up %u at %f,%f\n", i, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+		//mouseSendEvent( mouseX, mouseY, mouseButton);
+		NSLog(@"Mouse up %u at %f,%f\n", i, mouseX, mouseY);
 	}
 	if (strncmp(kMsgCEnter, (char*)message, 4) == 0){
 		// connected

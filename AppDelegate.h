@@ -39,11 +39,11 @@
 	ConfigurationViewController *configViewController;
 	UINavigationController *navController;
 	SynergyClient * synergyClient;    
-    int _orientation;
+    UIInterfaceOrientation _orientation;
 }
 
 + (AppDelegate *)sharedInstance;
-- (int)getOrientation;
+- (UIInterfaceOrientation)getOrientation;
 
 @property (nonatomic, strong) IBOutlet UIWindow *window;
 @property (nonatomic, strong) UINavigationController *navController;
