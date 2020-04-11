@@ -81,7 +81,7 @@ static AppDelegate *_instance;
 	[synergyClient setDelegate:configViewController];
 	CGRect screenBound = [[UIScreen mainScreen] bounds];
 	// NSLog(@"Screen width = %f, height = %f", screenBound.size.width, screenBound.size.height);
-	[synergyClient setScreenWidth:screenBound.size.width andHeight:screenBound.size.height];
+	[synergyClient setScreenWidth:screenBound.size.width*3 andHeight:screenBound.size.height*3];
 
     
     //initial orientation

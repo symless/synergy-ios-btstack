@@ -617,7 +617,7 @@ enum {
 		int x, y;
 		[self parseMessage:kMsgDMouseMove, &x, &y];
 		mouseX = x; mouseY = y;
-        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX/3, mouseY/3);
         //mouseSendEvent( mouseX, mouseY, mouseButton);
         NSLog(@"Mouse button %u at %f,%f\n", mouseButton, mouseX, mouseY);
 	}
@@ -649,7 +649,7 @@ enum {
 		}
         
         
-        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX/3, mouseY/3);
 		//mouseSendEvent( mouseX, mouseY, mouseButton);
 		NSLog(@"Mouse down %u at %f,%f\n", button, mouseX, mouseY);
 	}
@@ -657,7 +657,7 @@ enum {
 		int i;
 		[self parseMessage:kMsgDMouseUp, &i];
 		mouseButton = 0;
-        hid_inject_mouse_abs_move(mouseButton, mouseX, mouseY);
+        hid_inject_mouse_abs_move(mouseButton, mouseX/3, mouseY/3);
 		//mouseSendEvent( mouseX, mouseY, mouseButton);
 		NSLog(@"Mouse up %u at %f,%f\n", i, mouseX, mouseY);
 	}
