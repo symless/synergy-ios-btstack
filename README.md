@@ -6,8 +6,6 @@ It has basic support for iOS 13. Mouse works. Keyboard is coming soon :).
 
 It's avaliable in .deb form on the releases page here, or on https://repo.openpack.io/
 
-![SynergyClient](https://github.com/KritantaDev/synergy-ios-client/raw/master/IMG_0744.png)
-
 * Install a Synergy server on your computer as normal
 * Configure server to have one additional screen (client) called "iPhone" (or the hostname)
 * Start SynergyClient on your iOS device
