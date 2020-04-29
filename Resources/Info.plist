@@ -9,14 +9,9 @@
 	<key>CFBundleExecutable</key>
 	<string>SynergyClient</string>
 	<key>CFBundleIconFile</key>
-	<string>Icon-57.png</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon-57.png</string>
-		<string>Icon-72.png</string>
-	</array>
+	<string>Icon-App-1024x1024.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>ch.ringwald.synergyclient</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -46,6 +41,8 @@
 	<array>
 		<string>continuous</string>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Resources/launch</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeRight</string>

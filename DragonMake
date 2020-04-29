@@ -1,0 +1,55 @@
+---
+package_name: SynergyClient
+install_command: killall -9 backboardd
+SynergyClient:
+    type: app
+    cflags: -w -I./hid-support
+    ldflags: ./hid-support/libhidsupport/libhidsupport.tbd
+    frameworks:
+        - AppSupport
+        - UIKit
+        - CoreGraphics
+        - Foundation
+    files:
+        - AppDelegate.m
+        - main.m
+        - SynergyClient.m
+        - ConfigurationViewController.m
+        - BackgroundApplication.m
+        - SynergyClient/SynergyNavigationViewController.m
+    stage:
+        - cp -R AppBuildFiles/* .dragon/_/Applications/$name.app/
+libhidsupport:
+    type: lib
+    install_location: /usr/local/lib/
+    dir: hid-support/libhidsupport
+    cc: clang
+    files:
+        - client.c
+    cflags: -I../3rdParty/RocketBootstrap/include
+    ldflags: -L../3rdParty/RocketBootstrap/lib
+    libs:
+        - substrate
+        - rocketbootstrap
+    stage:
+        - cp .dragon/_/usr/local/lib/libhidsupport.dylib ./
+        - xcrun tapi stubify --delete-input-file libhidsupport.dylib
+hidspringboard:
+    type: tweak
+    dir: hid-support/hidspringboard/
+    logos_files:
+        - Tweak.xm
+    cflags: -I../3rdParty/RocketBootstrap/include -I../3rdParty
+    arc: -w
+    framework_search_dirs:
+        - ../Frameworks/
+    frameworks:
+        - GraphicsServices 
+        - IOKit
+hidlowtide:
+    type: tweak
+    dir: hid-support/hidlowtide
+    logos_files:
+        - Tweak.xm
+    cflags: -I../3rdParty/RocketBootstrap/include/
+    arc: -w

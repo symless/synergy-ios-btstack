@@ -82,7 +82,7 @@ int mouseSendEvent(float x, float y, char buttons)
         // Create and send message
         MouseEvent event;
         
-        int orientation = [[AppDelegate sharedInstance] getOrientation];
+        UIInterfaceOrientation orientation = [[AppDelegate sharedInstance] getOrientation];
         
         //saiyen
         //Get orientation, if orientation is landscape, switch x and y optionally invert
